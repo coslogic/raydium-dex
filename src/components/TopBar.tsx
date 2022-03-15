@@ -177,14 +177,14 @@ export default function TopBar() {
       <Wrapper style={{ background: '#0F1429'}}>
         <Row wrap={false} style={{ paddingTop: 25, height: 70 }}>
           <Col flex="none">
-            <LogoWrapper onClick={() => history.push(tradePageUrl)} style={{ paddingLeft: 0}}>
+            <LogoWrapper onClick={() => history.push(tradePageUrl)} style={{ paddingLeft: 40}}>
               <img src={logo} alt="" style={{ width: 145, height: 40 }} />
             </LogoWrapper>
           </Col>
           <Col flex="auto" style={{ textAlign: 'center'}}>
             {menuDiv}
           </Col>
-          <Col flex="none" style={{ paddingRight: 0}}>
+          <Col flex="none" style={{ paddingRight: 20}}>
             <WalletConnect />
           </Col>
         </Row>
